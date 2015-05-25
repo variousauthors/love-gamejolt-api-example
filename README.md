@@ -5,7 +5,8 @@ the command-line, passing your own username and token, and it will post a high-s
 on GameJolt.
 
 ```
-love love-gamejolt-api-example/ username token
+git clone git@github.com:variousauthors/love-gamejolt-api-example.git
+love love-gamejolt-api-example/ [username] [token]
 ```
 
 If you see: `UPLOADING SCORE...` then the library works. Otherwise, figure out why it doesn't
