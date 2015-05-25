@@ -51,7 +51,8 @@ table.copy = table.deepcopy
 game = {
     states = {},
     objects = {},
-    graphics = {} -- Just some ideas...
+    graphics = {}, -- Just some ideas...
+    gamejolt = require('libs/gamejolt')
 }
 
 -- conf.lua -- Initial configuration (already loaded)
