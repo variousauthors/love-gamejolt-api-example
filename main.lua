@@ -33,6 +33,8 @@ hump = {
     Vector = require('vendor/hump/vector')
 }
 
+gamejolt = require('vendor/love-gamejolt-api/gamejolt')
+
 -- Helper methods
 serialize  = require('vendor/ser')
 inspect    = kikito.inspect
@@ -52,7 +54,6 @@ game = {
     states = {},
     objects = {},
     graphics = {}, -- Just some ideas...
-    gamejolt = require('libs/gamejolt')
 }
 
 -- conf.lua -- Initial configuration (already loaded)

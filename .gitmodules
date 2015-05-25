@@ -1,0 +1,3 @@
+[submodule "vendor/love-gamejolt-api"]
+	path = vendor/love-gamejolt-api
+	url = git@github.com:variousauthors/love-gamejolt-api.git
