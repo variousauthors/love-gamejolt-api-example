@@ -1,11 +1,12 @@
 # Love Gamejolt-API Integration: Example App
 
-This project is a small app written in LOVE2D, using nomoon's boilerplate project structure. Run it from
+This project is a small app written in LOVE2D, using nomoon's boilerplate project structure meant to showcases [love-gamejolt-api][1]. Run it from
 the command-line, passing your own username and token, and it will post a high-score to one of my projects
 on GameJolt.
 
 ```
-love love-gamejolt-api-example/ username token
+git clone git@github.com:variousauthors/love-gamejolt-api-example.git
+love love-gamejolt-api-example/ [username] [token]
 ```
 
 If you see: `UPLOADING SCORE...` then the library works. Otherwise, figure out why it doesn't
@@ -13,7 +14,7 @@ work and send me a pull request.
 
 ## The Important Bits
 
-Here is the code that matters:
+Here is the code that matters (in [love/load.lua][0]):
 
 ```lua
     -- instantiate your GJ connection
@@ -30,3 +31,6 @@ Here is the code that matters:
 ## License
 
 LÖVE2D Boilerplate is licensed under the Apache License, version 2 (see [LICENSE.md](LICENSE.md)).
+
+[0]: https://github.com/variousauthors/love-gamejolt-api-example/blob/master/love/load.lua
+[1]: https://github.com/variousauthors/love-gamejolt-api
