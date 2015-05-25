@@ -14,7 +14,7 @@ work and send me a pull request.
 
 ## The Important Bits
 
-Here is the code that matters:
+Here is the code that matters (in [love/load.lua][0]):
 
 ```lua
     -- instantiate your GJ connection
@@ -31,3 +31,5 @@ Here is the code that matters:
 ## License
 
 LÖVE2D Boilerplate is licensed under the Apache License, version 2 (see [LICENSE.md](LICENSE.md)).
+
+[0]: https://github.com/variousauthors/love-gamejolt-api-example/blob/master/love/load.lua
